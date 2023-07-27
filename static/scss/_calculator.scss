@@ -1,0 +1,134 @@
+.parent_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $light_gray;
+    min-height: 100vh !important;
+    padding: 0;
+    margin: 0;
+    
+
+    .main_wrapper {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100%;
+        width: 100%;
+
+        .row {
+
+            margin: 0;
+            padding: 0;
+            height: 80%;
+            width: 90%;
+            padding: 0;
+
+            .cal {
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                background-color: $white;
+                width: 100%;
+                height: 100%;
+                padding: 30px;
+                margin: 0;
+
+                // border: 2px solid red;
+                border-radius: 30px;
+                border-bottom-right-radius: 250px;
+
+                .inputDob{
+                    // position: relative;
+                  
+                    .dob{
+                        // position: relative;
+                        overflow: hidden !important;
+                        display: flex;
+                        gap: 10px;
+                        border-bottom: 2px solid $light_gray;
+                        padding-bottom: 30px;
+
+                        div{
+                            input{
+                                align-items: center;
+                                height: 100%;
+                                
+                            }::placeholder{
+                                justify-content: center;
+                                text-align:left;
+                                font-weight: 900;
+                                font-size: 2rem;
+                                color:$dark_ligh_gray
+                            }
+                            label{
+                                font-weight: 600;
+                                color:$dark_ligh_gray;
+                            }
+                        }
+    
+                    }
+
+                    .submit{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                       
+                   
+                        position:relative;
+                        
+
+                        button{
+                            height: 100px;
+                            width: 100px;
+                            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                            background-color: $button_color;
+                            position:absolute;
+                            border-radius: 50%;
+                            right:10px;
+                        bottom: -40px;
+                            i{
+                                font-size: 5rem;
+                                color:$white;
+                            }
+                        }
+                    }
+                }
+                .show_age{
+                    margin-top: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+
+                    p{
+                        font-size:5em;
+                        font-weight: 900;
+                        color:$black;
+                        padding-left: 30px;
+                        span{
+                            padding-right: 30px;
+                            color: $button_color;
+                        }
+                    }
+                }
+                
+                  }  
+
+                }
+
+            }
+        }
+
+
+        input::-webkit-inner-spin-button,
+        input::-webkit-outer-spin-button,
+        input::-moz-inner-spin-button,
+        input::-moz-outer-spin-button,
+        input::number-decrement-button,
+        input::number-increment-button {
+          appearance: none;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          margin: 0; /* Optional: Remove any additional spacing */
+        }

@@ -1,0 +1,183 @@
+
+@media (max-width: $desktop-width) {
+    .parent_wrapper{
+        .main_wrapper{
+            .row{
+                .cal{
+                    .inputDob{
+    .submit{
+       
+
+        button{
+            right:-40px;
+            bottom: -40px;
+   
+        }
+    }
+
+    .dob{
+        div{
+            input{
+
+            }::placeholder{
+            font-size: 2rem;
+        }
+        label{
+            font-weight: 600;
+            font-size: 0.8rem;
+           
+        }
+        }
+    }
+}
+}
+}
+}
+}
+    
+    .show_age {
+      
+        p{
+            font-size: 3em !important;
+        }
+    }
+  }
+
+
+@media (max-width: $mobile-width) {
+    
+    .parent_wrapper{
+        .main_wrapper{
+            .row{
+                .cal{
+                    border-bottom-right-radius: 150px;
+                    .inputDob{
+    .submit{
+       
+
+        button{
+            right:80px;
+            bottom: -80px;
+            height: 60px;
+            width: 60px;
+
+            i{
+                font-size: 3rem;
+                
+            }
+   
+        }
+    }
+    .dob{
+        div{
+            input{
+
+            }::placeholder{
+            font-size: 1rem;
+        }
+        }
+    }
+}
+
+}
+}
+}
+}
+
+    .show_age {
+      
+        p{
+            font-size: 1.8em !important;
+        }
+    }
+  }
+
+  @media (max-width: $tablet-width) and (min-width: 400px) {
+
+    .parent_wrapper{
+        .main_wrapper{
+            .row{
+                .cal{
+                    border-bottom-right-radius: 150px;
+                    .inputDob{
+    .submit{
+       
+
+        button{
+            right:130px;
+            bottom: -100px;
+            height: 80px;
+            width: 80px;
+
+            i{
+                font-size: 4rem;
+                
+            }
+   
+        }
+    }
+
+    .dob{
+        div{
+            input{
+
+            }::placeholder{
+            font-size: 1.5rem;
+        }
+        }
+    }
+}
+}
+}
+}
+}
+    // Your desktop styles go here
+    .show_age {
+      
+        p{
+            font-size: 2.3em !important;
+        }
+    }
+  }
+
+  @media (max-width: 300px) {
+    // Your desktop styles go here
+    .show_age {
+      
+        p{
+            font-size: 01.2em !important;
+        }
+    }
+  }
+
+  @media (max-width: 1000px) and (min-width: 760px) {
+    .parent_wrapper{
+        .main_wrapper{
+            .row{
+                .cal{
+                    border-bottom-right-radius: 150px;
+                    .inputDob{
+    .submit{
+       
+
+        button{
+            right:-40px;
+            bottom: -40px;
+            height: 80px;
+            width: 80px;
+
+            i{
+                font-size: 4rem;
+                
+            }
+   
+        }
+    }
+}
+}
+}
+}
+}
+
+
+  }

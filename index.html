@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+   
+   <!-- Font Awsome CDN -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="static/scss/css/style.css">
+</head>
+<body>
+    <div class="container-fluid parent_wrapper">
+        <div class="container main_wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    
+                    <div class="cal">
+                        
+                        <div class="inputDob">
+                           
+                            <div class="row">
+                                <h1 style="margin-bottom: 50px;">Age Calculator</h1>
+                                <div class="col-md-11 dob">
+
+                                    <div class="mb-3">
+                                        <label for="day" class="form-label">DAY</label>
+                                        <input type="text" class="form-control" id="day" maxlength= "2" placeholder="DD">
+                                        
+                                    </div>
+
+                                      <div class="mb-3">
+                                        <label for="month" class="form-label">MONTH</label>
+                                        <input type="text" class="form-control" id="month" maxlength= "2" placeholder="MM">
+                                      
+                                    </div>
+
+                                      <div class="mb-3">
+                                        <label for="year" class="form-label">YEAR</label>
+                                        <input type="text" class="form-control" id="year" maxlength= "4" placeholder="YYYY">
+                                      
+                                    </div>
+
+                                </div>
+                               
+                                <div class="col-md-1 submit">
+                                    <button id="calcAge" class="btn"><i class="fa-solid fa-caret-down"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="show_age">
+                            <p><span id="years">_ _</span>Years</p>
+                            <p><span id="months">_ _</span>Months</p>
+                            <p><span id="days">_ _</span>Days</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS CDN -->
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
